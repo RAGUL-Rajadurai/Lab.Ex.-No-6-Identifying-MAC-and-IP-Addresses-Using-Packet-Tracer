@@ -1,5 +1,5 @@
 # Ex. No: 6 Identifying MAC and IP Addresses Using Packet Tracer
-# Date:
+# Date:17.11.2026
 ________________________________________
 # Objective
 To use Cisco Packet Tracer simulation mode to capture and analyze MAC and IP address information for both local and remote network communication.
@@ -14,6 +14,9 @@ ________________________________________
 •	The topology contains a local network (172.16.31.0/24) connected to a remote network (10.10.10.0/24) via a router.<br>
 •	Devices include PCs, switches, hub, and wireless AP.<br>
 (Insert screenshot of your Packet Tracer setup here)<br>
+
+<img width="1917" height="1018" alt="Screenshot 2026-11-17 172428" src="https://github.com/user-attachments/assets/7f353533-0a9d-43c5-9b7d-9ee4dd24a2b7" />
+
 ________________________________________
 # IP Addressing Table
 (Example – actual values from simulation)<br>
@@ -49,8 +52,16 @@ Switch1	000C:85CC:1DA7	00D0:D311:C788	N/A	N/A<br>
 ________________________________________
 # Output (Screenshots)
 •	PDU details for local communication<br>
+<img width="1917" height="997" alt="Screenshot 2026-11-17 172702" src="https://github.com/user-attachments/assets/a7aa1663-53ac-4a18-8ae2-0bfc4594f882" />
+<img width="1916" height="1021" alt="Screenshot 2026-11-17 173712" src="https://github.com/user-attachments/assets/6f3141ab-dafb-4d31-a8cf-5d682a5393e0" />
+<img width="1915" height="1008" alt="Screenshot 2026-11-17 174320" src="https://github.com/user-attachments/assets/933a0726-658b-41d8-93be-c5f18c60e1fa" />
+
 •	PDU details for remote communication<br>
+<img width="1917" height="1020" alt="Screenshot 2026-11-17 174630" src="https://github.com/user-attachments/assets/775f579b-1fdb-4823-b07c-4bf745db41fe" />
 •	Tables showing MAC/IP changes through each device<br>
+
+<img width="1917" height="865" alt="image" src="https://github.com/user-attachments/assets/97c8ea1d-2dfc-4cab-bea6-62734176ae5b" />
+
 ________________________________________
 # Result
 Successfully captured and analyzed MAC and IP addresses for both local and remote communications. Verified that MAC addresses change at each hop while IP addresses remain constant from source to destination.
